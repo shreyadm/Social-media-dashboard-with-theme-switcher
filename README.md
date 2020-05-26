@@ -1,2 +1,4 @@
-# Social-media-dashboard-with-theme-switcher
-This is a static page with theme switcher
+# Frontend Mentor - Social media dashboard with theme switcher
+
+![Design preview for the Social media dashboard with theme switcher coding challenge](./design/desktop-preview.jpg)
+

@@ -1,0 +1,366 @@
+
+/* Heading text section */
+* {
+	box-sizing: border-box;
+}
+body{
+    font-family: 'Inter', sans-serif;
+    background-color: hsl(0, 0%, 100%);
+    
+    
+}
+.top-text{
+    margin-left: 150px;
+    margin-right: 150px;
+    padding-top: 30px;
+    /* padding-bottom: 50px; */
+   
+}
+.top-container{
+    background-color: hsl(225, 100%, 98%);
+    z-index: -1;
+    
+}
+
+.title{
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 0;
+    font-size: 28px;
+    display: inline;
+}
+
+
+.d-text{
+    font-weight: 700;
+    padding-left: 450px;
+    font-size: 15px;
+    display: inline;
+    color: hsl(228, 12%, 44%);
+}
+
+.subtitle{
+    font-weight: 700;
+    color: hsl(228, 12%, 44%);
+} 
+
+.label {
+	background: linear-gradient(90deg,hsl(210, 78%, 56%),hsl(146, 68%, 55%));
+	border-radius: 50px;
+	cursor: pointer;
+    display: inline-flex;
+	padding: 5px;
+	position: absolute;
+    margin-left: 890px;
+    top: 38px;
+	height: 18px;
+    width: 35px;
+	transform: scale(1.5);
+}
+
+.label .ball {
+	background-color: #fff;
+	border-radius: 50%;
+	position: absolute;
+	top: 2px;
+	left: 2px;
+    height: 14px;
+    width: 14px;
+	transform: translateX(0px);
+	transition: transform 0.2s linear;
+}
+
+.checkbox:checked + .label .ball {
+	transform: translateX(15px);
+}
+
+.checkbox {
+	opacity: 0;
+    position: absolute;
+    padding-left: 100px;
+}
+
+/* Head cards section */
+
+.header-cards{
+    display: inline-block;
+    position: relative; 
+    z-index: 1;
+    height: 220px;
+    width: 220px;
+    /* margin-top: 50px; */
+    top: 40px;
+    /* margin-bottom: 1em; */
+    /* margin-top: 2em; */
+    margin-right: 20px;
+    background-color: hsl(227, 47%, 96%);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.hc1{
+    margin-left: 150px;
+    border-top: 3px solid hsl(208, 92%, 53%);
+    
+}
+
+.hc2{
+    border-top: 3px solid hsl(203, 89%, 53%);
+    margin-top: 5px;
+}
+
+.hc3{
+  
+    background-image: linear-gradient(to right, hsl(37, 97%, 70%), hsl(329, 70%, 58%));
+    background-repeat: no-repeat;
+    background-size:100% 4px;
+}
+
+.hc4{
+    border-top: 3px solid hsl(348, 97%, 39%);
+
+}
+
+
+.hc-title{
+    color: hsl(228, 12%, 44%);
+    font-weight: 700;
+    font-size: 15px;
+   
+}
+
+.hc-logo{
+    
+    margin-right: 10px;
+}
+
+.hc-number{
+    color: hsl(230, 17%, 14%);
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 0;
+}
+
+.hc-follower{
+    color: hsl(228, 12%, 44%);
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 0;
+    letter-spacing: 6px;
+    padding-bottom: 15px;
+}
+
+.hc-count{
+    color: hsl(163, 72%, 41%);
+    font-weight: 700;
+    font-size: 13px;
+}
+.hc4 .hc-count{
+    color: hsl(356, 69%, 56%);
+}
+
+/* Bottom container */
+.bottom{
+    margin-left: 150px;
+    margin-right: 150px;
+    padding-top: 10px;
+    position: absolute;
+    top:70%;
+}
+.bottom-container{
+    position: absolute;
+    top:80%;
+    /* display: flex; */
+    margin-left: 150px;
+    /* margin-right: 150px;  */
+    padding-top: 10px;
+    /* flex-wrap: wrap; */
+    /* border: 10px solid transparent; */
+    display:inline-block;
+    padding-right: 100px;
+    /* padding-left: 100px; */
+    /* border: 17px solid transparent; */
+   padding-bottom:100px;
+
+}
+
+
+.bc{
+    display: inline-block;
+    /* height: 100px;
+    width:200px; */
+    /* padding: 30px; */
+    /* padding: 10px; */
+    height: 100px;
+    width: 230px;
+    border-radius: 8px;
+    padding-bottom: 100px;
+    background-color:hsl(227, 47%, 96%);
+   
+    
+}
+
+.bc1{
+    /* display: flex; */
+    margin-right: 10px; 
+}
+.bc1 .bc-logo{
+    position: relative;
+    display: inline-block;
+    left:40%;
+}
+
+.bc2{
+    margin-right: 10px; 
+}
+.bc2 .bc-logo{
+    position: relative;
+    display: inline-block;
+    left:60%;
+}
+.bc3{
+    margin-right: 10px; 
+
+}
+.bc3 .bc-logo{
+    position: relative;
+    display: inline-block;
+    left:62%;
+}
+.bc4{
+    /* margin-right: 10px;  */
+
+}
+.bc4 .bc-logo{
+    position: relative;
+    display: inline-block;
+    left:35%;
+}
+.bc5{ 
+    float:left;
+    /* margin-bottom: 2%; */
+    margin-top: 20px;
+    margin-right: 15px;
+}
+.bc5 .bc-logo{
+    position: relative;
+    display: inline-block;
+    left:48%;
+}
+
+.bc6{ 
+    float:left;
+    /* margin-bottom: 2%; */
+    margin-top: 20px;
+    margin-right: 15px; 
+}
+.bc6 .bc-logo{
+    position: relative;
+    display: inline-block;
+    left:60%;
+}
+.bc7{ 
+    float:left;
+    /* margin-bottom: 2%; */
+    margin-top: 20px;
+    margin-right: 12px;
+}
+.bc7 .bc-logo{
+    position: relative;
+    display: inline-block;
+    left:65%;
+}
+.bc8{ 
+    float:left;
+    /* margin-bottom: 2%; */
+    margin-top: 20px;
+    /* margin-right: 10px;  */
+}
+.bc8 .bc-logo{
+    position: relative;
+    display: inline-block;
+    left:44%;
+}
+.bc-title{
+    padding-left: 10px;
+    color: hsl(228, 12%, 44%);
+    font-weight: 700;
+    font-size: 15px;
+}
+
+
+
+.bc-number{
+    display: inline;
+    color:hsl(230, 17%, 14%);
+    font-weight: 700;
+    padding-left: 20px;
+    font-size: 25px;
+}
+
+.bc-count{
+    display: inline;
+    position: relative;
+    left:55%;
+    font-size: 13px;
+    color: hsl(163, 72%, 41%);
+}
+
+.bc2 .bc-count{
+    color: hsl(356, 69%, 56%);
+}
+.bc3 .bc-count{
+    left:35%;
+}
+.bc4 .bc-count{
+    left:40%;
+}
+.bc5 .bc-count{
+    left:45%;
+}
+.bc6 .bc-count{
+    left:45%;
+}
+.bc7 .bc-count{
+    left:50%;
+    color: hsl(356, 69%, 56%) ;
+}
+.bc8 .bc-count{
+    left:39%;
+    color: hsl(356, 69%, 56%);
+}
+
+
+
+/***********************************************************************************/
+/* Dark mode */
+
+/* Heading text section */
+
+.top-container.dark {
+	background-color:hsl(232, 19%, 15%);
+}
+
+.title.dark{
+    color: hsl(0, 0%, 100%);
+}
+body.dark{
+   background-color:  hsl(230, 17%, 14%);
+}
+
+.header-cards.dark{
+    background-color: hsl(228, 28%, 20%);
+}
+
+.hc-number.dark{
+    color: hsl(0, 0%, 100%);
+}
+
+.bc-number.dark{
+    color: hsl(0, 0%, 100%);
+}
+
+.bc.dark{
+    
+    background-color: hsl(228, 28%, 20%);
+}
